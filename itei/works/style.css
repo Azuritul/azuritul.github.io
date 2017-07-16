@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@media screen and (min-width:320px) {
+
+  .site-title{margin:50px 0 40px;
+            font-size: 144px;
+            color: yellow;
+            }
+}
+@media screen and (min-width:1024) {
+.site-title{margin:50px 0 40px;
+            font-size:7.6rem;
+            }
+}
 html{font-size:62.5%}
 *,*::before,*::after{box-sizing:border-box;}
 body{background:#383634;
@@ -25,9 +37,7 @@ body{background:#383634;
  margin:0 30px;
  background-color:#fff;
  vertical-align:middle;}
-.site-title{margin:50px 0 40px;
-            font-size:7.6rem;
-            }
+
 .site-title1{font-size:3rem;}           
 .site-tescription{margin-bottom:50px;
                   color:#888;

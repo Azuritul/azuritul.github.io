@@ -1,0 +1,106 @@
+@charset"UTF-8";
+
+html{
+     font-size:62.5%
+}
+*,*::before, *::after{
+     box-sizing: border-box;
+}
+
+body{
+     margin:0;
+     background:url('../images/S__3489844.jpg')no-repeat ;
+     background-size:cover;
+     color:#fff;
+     
+     font-size:1.2rem;
+     font-family:"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+}
+a:link{text-decoration:none;
+       color:pink;
+}
+a:visited{text-decoration:none;
+       color:white;
+}
+a:hover{text-decoration:none;
+       color:white;
+} 
+a:active{text-decoration:none;
+       color:pink;
+}         
+        
+.header{
+     padding:50px 60px 20px 50px;
+     background:#151515;
+     overflow:hidden;}
+     
+.global-navi {margin-top:15px;
+              text-align:right;
+              } 
+.global-navi li{display:inline-block;
+                width:100px;
+                line-height:30px;
+                
+                font-size:14px;
+               }              
+                      
+
+.logo{
+     float:left;
+     clear:both;
+     
+     }
+
+
+
+.about{text-align:center;
+       background:#fff;
+}
+.heading{
+      margin:30px 0 0px;
+      letter-spacing:2px;
+      font-size:4rem;
+      color:gray;
+      padding:50px 0 ;    
+}                 
+.about-text{
+     margin:0 0  50px 0;
+     line-height:2.5;
+     color:#151515;
+     padding:0 40px;
+}          
+.room{
+    background:#151515;   
+}                       
+.room-box{
+    margin:20px 30px 20px 30px;
+    display:inline-block;
+       
+}
+  
+.service{
+    background:#fff;
+}    
+.service-box{
+    margin:0px 30px 20px 30px;
+    
+}
+.access{
+     background:#151515;
+     float:center;
+}
+.access-text{
+     font-size:1.2rem;
+}
+
+.access-box{
+    float:center;
+    margin:0px 30px 20px 30px;
+    
+
+
+
+
+
+
+
