@@ -7,7 +7,7 @@ html{
      box-sizing: border-box;
 }
 
-body{
+body{float:center;
      margin:0;
      background:url('../images/S__3489844.jpg')no-repeat ;
      background-size:cover;
@@ -17,7 +17,7 @@ body{
      font-family:"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
 }
 a:link{text-decoration:none;
-       color:pink;
+       color:white;
 }
 a:visited{text-decoration:none;
        color:white;
@@ -26,7 +26,7 @@ a:hover{text-decoration:none;
        color:white;
 } 
 a:active{text-decoration:none;
-       color:pink;
+       color:white;
 }         
         
 .header{
@@ -53,7 +53,9 @@ a:active{text-decoration:none;
 
 
 
-.about{text-align:center;
+.about{
+       float:center;
+       text-align:center;
        background:#fff;
 }
 .heading{
@@ -61,7 +63,9 @@ a:active{text-decoration:none;
       letter-spacing:2px;
       font-size:4rem;
       color:gray;
-      padding:50px 0 ;    
+      padding:50px 0;
+      float:center;
+          
 }                 
 .about-text{
      margin:0 0  50px 0;
@@ -70,16 +74,21 @@ a:active{text-decoration:none;
      padding:0 40px;
 }          
 .room{
-    background:#151515;   
+    background:#151515;
+    float:center;
+    text-align:center;   
 }                       
 .room-box{
-    margin:20px 30px 20px 30px;
+    margin:10px 30px 20px 30px;
     display:inline-block;
-       
-}
   
+}
+
+
 .service{
     background:#fff;
+    float:center;
+    text-align:center;
 }    
 .service-box{
     margin:0px 30px 20px 30px;
@@ -88,19 +97,58 @@ a:active{text-decoration:none;
 .access{
      background:#151515;
      float:center;
+     text-align:center;
 }
 .access-text{
      font-size:1.2rem;
+     padding:0 0 60px 0 ;
 }
 
 .access-box{
     float:center;
     margin:0px 30px 20px 30px;
-    
+    color:pink;
+}    
+.recruit{
+    background:#fff;
+    float:center;
+    text-align:center;   
+}
+.recruit-box{
+    color:#151515;
+    float:center;
+    padding:30px;
+    margin:10px 100px 40px 100px;
+    background:#F3F3F3;
+}
+.recruit-title{
+    border-left:solid 3px #151515;
+    padding:5px;
+    text-align:left;
+}
 
-
-
-
-
+.recruit-text{
+    color:#151515;
+    padding:10px;
+    text-align:left;
+}
+.button-recruit{
+     display:inline-block;
+     width:100px;
+     background-color:#151515;
+     padding:10px;
+     border-radius:4px;
+     float:center;
+     margin:0 0 30px 0;
+}
+.footer{
+     float:center;
+     text-align:center;
+     background:#151515;
+     
+}    
+.footer-text{
+     padding:50px0;
+}
 
 
