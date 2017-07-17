@@ -1,11 +1,5 @@
 @charset "shift_jis";
 
-@media screen and (min-width:320px) {
-  p{ color:pink;
-    font-size: 1px;
-    }
-}
-
 *  { font-family:"メイリオ",Arial,"ヒラギノ角ゴPro W3",
      "Hiragino Kaku Gothic Pro","MS Pゴシッグ"sans-serif;
    }
@@ -19,7 +13,7 @@ body  {margin:0;
 h1,h2,h3 {margin-top:0;
 }
     
-#wrapper  {background-color:white;
+#wrapper  {background-color:red;
            width:680px;
            margin:0 auto;
            border:solid 1px white;
@@ -66,22 +60,22 @@ h1,h2,h3 {margin-top:0;
                      } 
  
 a:link {text-decoration:none;
-         color:#ed6d35;  }
+         color:#F4A460;  }
          
 a:visited {text-decoration:none;
-            color:white;  }
+           color:white;  }
             
 a:hover {text-decoration:none;
-         color:#ed6d35;  }
+         color:white;  }
 
-a:active {text-decoration:none;
-         color:white;  }         
+a:active {text-decoration:underline;
+         color:#F4A460;  }         
  
  
  #main-navi {width:680px;
              height:342px;
              overflow:hidden;
-                background:#f6ae54;}                         
+             background:#f6ae54;}                         
 
 .f-section1 {width:180px; 
              float:left;
@@ -119,12 +113,12 @@ a:active {text-decoration:none;
                float:center;
                line-height:14px;
                border-bottom:dotted 1px #6c3524;
-               }  
+               color:black;}  
 .f-section2 h1 {margin:10px 20px 5px 20px;
                 color:red;
                 border:none;}                           
               
- .f-section3 img {text-align:center;
+.f-section3 img {text-align:center;
                   margin:30px 0 10px 10px;
                   outline-offset:3pt;
                   outline:0.5pt solid white;
