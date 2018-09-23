@@ -101,11 +101,13 @@ a:active{
 .second-1 table th {
                      padding: 20px;
                      background-color:brown;
-                     color:white; 
+                     color:white;
+                     
                     }
 .second-1 table td {
                      padding: 20px;
-                     background-color:khaki; 
+                     background-color:khaki;
+                     font-size:14px;  
                    }
 .second-2{
           width:920px ;
@@ -126,7 +128,8 @@ a:active{
                      }
 .second-2 table td {
                     padding: 20px;
-                    background-color:khaki; 
+                    background-color:khaki;
+                    font-size:14px;  
                    }
 #footer{
          overflow: hidden; 
@@ -179,5 +182,6 @@ a:active{
 .footer3 p{           
             text-align: center;
             color:white;
+            line-height:10px; 
             }       
                 

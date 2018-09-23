@@ -137,54 +137,52 @@ a:active{
         overflow: hidden; 
         background-color:black;
         height:280px ;
-        }
+       }
+
 .footer1{
-          height:180px ;
-          
-          float: left;
-          width:960px;
-          border-bottom:solid 1px white; 
-}
+           height:180px ;
+           overflow: hidden;             
+           float: left;
+           width:960px;
+           border-bottom:solid 1px white;
+           border-top:solid 1px blanchedalmond; 
+       }
 .footer1 p{
            line-height:23px;
            padding-left: 20px;
            color:white;
            padding-top:20px;   
-}        
-
+           }        
+               
 .footer2{
-        height:60px ;
-       
-        float: left;
-        width:960px;
-        
-
-}
+           height:60px ;
+                      
+           float: left;
+           width:960px;
+                       
+           }
 .footer2 ul{
-        padding-left:0;
-        
-       }
-
+           padding-left:0;
+                       
+           }
+               
 .footer2  ul li{
-          float:left;
-          list-style: none;
-          text-align:center; 
-          padding:10px 42px 10px 42px;
-         }
+               float:left;
+               list-style: none;
+               text-align:center; 
+               padding:10px 42px 10px 42px;
+               }
 .footer2  ul li a{
-             color:white;
-             
-            }
+                  color:white;
+                 }
 .footer3{
-        height:40px ;
-        background-color:brown;
-        float: left;
-        width:960px;
-}            
-.footer3 p{
-        
-        text-align: center;
-        color:white;
-          
-}       
-template
+         height:40px ;
+         background-color:brown;
+         float: left;
+         width:960px;
+        }            
+.footer3 p{           
+           text-align: center;
+           color:white;
+           line-height:10px; 
+           }       
