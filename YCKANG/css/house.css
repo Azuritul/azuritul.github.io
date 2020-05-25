@@ -1,0 +1,161 @@
+@charset "UTF-8";
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  background-color: white;
+}
+/*header*/
+.header {
+  background-color: white;
+}
+.logo img {
+  width: 250px;
+}
+.navbar {
+  max-width:960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.nav li {
+  padding: 0 20px;
+  text-align: center;
+}
+.nav a {
+  color: dimgray;
+  font-size: 16px;
+}
+a:link {
+  color: dimgray;
+  text-decoration: none;
+}
+a:visited {
+  color: dimgray;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+/*maining*/
+.maining{
+    background-color: white;
+}
+.image{
+  max-width: 960px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+.image img{
+  width: 100%;
+}
+/*content*/
+.content{
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.main{
+  text-align: center;
+  font-size:18px ;
+  
+  max-width: 960px;
+  margin: 0 auto;
+  color:gray; 
+}
+
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin:0 0 20px 0 ;
+  flex-direction: column; 
+}
+.picture{
+  flex:5;
+  padding:10px;
+}
+.picture img{
+  width:100% ;
+}
+.desc{
+  flex:2;
+  line-height:24px;
+  font-size:14px ;
+  
+}
+
+
+
+/*footer*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  background-color: white;
+  color: black;
+  font-size: 8px;
+}
+/*ipad*/
+@media (max-width: 768px) {
+.navbar {
+  flex-direction: column;
+  justify-content: space-around;
+  
+.nav ul {
+  flex-wrap: wrap;
+}
+.nav a {
+  color: dimgray;
+  
+}
+.section{
+  flex-direction: column;
+}
+.section_1{
+  flex-direction: column-reverse;
+}
+}
+/*phone*/
+@media (max-width:767px) {
+.navbar {
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.nav ul {
+  flex-wrap: wrap;
+  
+}
+.nav a {
+    font-size: 12px;
+  }
+.logo img {
+  width: 200px;
+}
+.main{
+    font-size:16px ;   
+   }
+.section{
+  flex-direction: column;
+}
+.desc{
+    flex:2;
+    line-height:16px;
+    font-size:12px ;
+    padding: 0 10px;
+    
+  }
+}
